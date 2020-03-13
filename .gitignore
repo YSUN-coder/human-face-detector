@@ -1,0 +1,61 @@
+# pyCharm configuration files
+.idea
+
+# vim swp file
+*.swp
+
+# python virtual environment
+.virtenv
+virtenv
+venv
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# python compiled files
+*.pyc
+*.pyo
+
+# mac cache files
+.DS_Store
+
+# Sphinx documentation
+docs/_build/
+
+MANIFEST
+*.log
+
+# Tempory file from tests
+tmp/*
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+venv/lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
